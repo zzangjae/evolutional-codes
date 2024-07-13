@@ -1,6 +1,11 @@
 import java.util.Stack;
 
 
+/*
+    Stack extends class Vector which provides synchronized dynamic array.
+
+    if you need fast stack and don't need to be synchronized. ArrayDeque will be better choice.
+ */
 public class StackCode {
 
     public static void main(String[] args) {
